@@ -7,13 +7,13 @@
 # three octets (x.x.x.1) by inspecting an arbitrary outbound IP route.
 # This default behavior may not work if your network
 # is not a /24, so make sure to specify here if needed.
-# dhcp_range_minimum: 192.168.1.100
-# dhcp_range_maximum: 192.168.1.250
-# network_broadcast_ip: 192.168.1.255
-# network_gateway_ip: 192.168.1.1
+dhcp_range_minimum: 10.13.13.100
+dhcp_range_maximum: 10.13.13.250
+network_broadcast_ip: 10.13.13.255
+network_gateway_ip: 10.13.13.1
 
 # If omitted, this is automatically determined
-# host_ip: 192.168.1.11
+host_ip: 10.13.13.10
 
 # If omitted, defaults to 8.8.8.8
 # Note that the primary DNS is always host_ip
